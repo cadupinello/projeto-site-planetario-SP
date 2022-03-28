@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&family=Shippori+Antique+B1&family=Syne+Mono&display=swap');
+
+body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+/* header */ 
+
+.header{
+    height: 30px;
+    padding-bottom: 10px;
+}
+
+.headerBox{
+    height: 30px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.header a img{
+    padding-top: 5px;
+    width: 20px;
+    height: 20px;
+    padding-left: 30px;
+}
+
+.header > div p{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+/*Navbar */
+#link-menu a:hover{
+    background-color: #eeeeee;
+    border-radius: 5px;
+}
+
