@@ -1,1 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&family=Shippori+Antique+B1&family=Syne+Mono&display=swap');
+
+
+/* Principal conteudo*/
+
+#title {
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+    font-family: "Rubik";
+    font-weight: 550;
+    font-size: 25px;
+}
+
+#subtitle{
+    color: black;
+    text-align: center;
+    font-family: "Rubik";
+    font-weight: 550;
+    font-size: 12px;
+}
+
+#sobre {
+    margin: 0;
+}
+
+#img-sobre {
+    margin-top: 40px;
+    height: 300px;
+    -webkit-box-shadow: 4px 1px 10px -3px #000000; 
+    box-shadow: 4px 1px 10px -3px #000000;
+    border-radius: 5px;
+}
+
+#parag{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    margin-top: 40px;
+}

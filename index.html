@@ -11,42 +11,99 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css_bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/footer.css">
+
 
   </head>
 
   <body>
 
-    <!--Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-transparent" id="link-menu">
-    <!--Logo -->
-    <a href="" class="navbar-brand">Planetário SP</a>
+    <header>
+        <div id="header">
+            <img src="img/facebook.png" >
+            <img src="img/instagram.png" >
+        </div>
+    </header>
 
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+    <section id="home">
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-transparent sticky-top" id="link-menu">
+
+    <!--Logo -->
+    <a href="" class="navbar-brand text-light" id="logo">Planetário SP</a>
+
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao-menu">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <!--navegação -->
-    <div class="collapse navbar-collapse" id="nav-target">
+    <div class="collapse navbar-collapse" id="navegacao-menu">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a href="" class="nav-link text-dark">Home</a>
+                <a href="" class="nav-link text-light">Home</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link text-dark">Sobre nós</a>
+                <a href="" class="nav-link text-light">Sobre nós</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link text-dark">Sessões</a>
+                <a href="" class="nav-link text-light">Sessões</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link text-dark">Localização</a>
+                <a href="" class="nav-link text-light">Localização</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link text-dark">Contato</a>
+                <a href="" class="nav-link text-light">Contato</a>
             </li>
         </ul> 
     </div>
-
     </nav>
+
+    <!--Home-->
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h1 class="display-4">Venha conhecer o mais famoso Planetário do Brasil</h1>
+                        <p class="lead" >Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+             </div>
+             <div class="col-md-6">
+                 <img src="/img/home-fundo.png" id="img-home">
+            </div>
+         </div>
+     </div>
+    </section>
+
+    <!--Sobre nós-->
+<section id="sobre"> 
+    <h3 id="title">Sobre nós</h3>
+    <p id="subtitle">- Planetário SP -</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/sobre.jpg" id="img-sobre">
+            </div>
+            <div class="col-md-6 d-flex">
+                <div class="align-self-center"> 
+                <p class="lead" id="parag">Lorem Ipsum is simply dummy text of the printing and typesetting
+                     industry. Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry.Lorem Ipsum is simply
+                    dummy text of the printing and typesetting industry.Lorem
+                    Ipsum is simply dummy text of the printing and
+                    typesetting industry.Lorem Ipsum is simply dummy text of
+                    the printing and typesetting industry.Lorem Ipsum is
+                    simply dummy text of the printing and typesetting
+                    industry.Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.Lorem Ipsum is simply dummy
+                    text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
