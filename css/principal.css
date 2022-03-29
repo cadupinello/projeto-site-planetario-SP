@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&family=Shippori+Antique+B1&family=Syne+Mono&display=swap');
 
 
-/* Principal conteudo*/
+/* Principal Sobre nós*/
 
-#title {
+.title {
     color: black;
     text-align: center;
     margin-top: 30px;
@@ -12,7 +12,7 @@
     font-size: 25px;
 }
 
-#subtitle{
+.subtitle{
     color: black;
     text-align: center;
     font-family: "Rubik";
@@ -37,4 +37,87 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
     margin-top: 40px;
+}
+
+/* Principal Sessões */
+
+.borda-container{
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    width: 300px;
+    height: 350px;
+    align-items: center;
+}
+
+.img-sessoes{
+    margin-top: 15px;
+    height: 170px;
+    width: 250px;
+    border-radius: 5px;
+    
+}
+
+.cont-sessoes{
+    float: left;
+    width: 100px;
+    padding: 0;
+}
+.cont-sessoes-tema{
+    float: right !important;
+    width: 100px;
+    height: 80px;
+    margin: 0px 20px 0px 0px;
+    padding: 0;
+
+}
+
+.text-sessoes{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    text-align: center;
+
+}
+
+.data-sessoes{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    text-align: center;
+}
+
+.tema-sessoes{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+}
+
+/*conteúdo localização*/
+#mapa{
+    -webkit-box-shadow: 0px 0px 15px 0px #000000; 
+    box-shadow: 0px 0px 15px 0px #000000;
+}
+
+/*Footer*/
+#footer{
+    background-color: #0e0036;
+}
+
+.footer-text{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    margin-top: 40px;
+}
+a:hover.footer-text{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #cecece;
+    margin-top: 40px;
+    text-decoration: none;
 }
