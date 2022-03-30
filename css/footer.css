@@ -1,1 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&family=Shippori+Antique+B1&family=Syne+Mono&display=swap');
+
+.coluna-meio img{
+    height: 25px !important;  
+}
+
+.imagem-direita img{
+    height: 35px !important;
+    margin-left: 40px !important;
+}
