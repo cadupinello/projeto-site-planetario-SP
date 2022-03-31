@@ -1,54 +1,234 @@
 <!doctype html>
 <html lang="pt-br">
   <head>
-
     <title>Planetário SP</title>
-
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css_bootstrap/bootstrap.min.css">
+    <!--Style CSS-->
     <link rel="stylesheet" href="css/home.css">
-
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/footer.css">
   </head>
 
   <body>
+    <header>
+        <div id="header">
+            <a href="#">
+                <img src="img/facebook.png" >
+            </a>
+            <a href="#">
+                <img src="img/instagram.png" >
+            </a>
+            <a href="#">
+                <img src="img/tik-tok-header.png">
+            </a>
+            <a href="#">
+                <img src="img/gmail-logo.png">
+            </a>
+        </div>
+    </header>
+
 
     <!--Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-transparent" id="link-menu">
-    <!--Logo -->
-    <a href="" class="navbar-brand">Planetário SP</a>
+    <nav class="navbar navbar-expand-md navbar-light" id="menu">
 
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+    <!--Logo -->
+    <a href="" class="navbar-brand" id="logo">Planetário SP</a>
+
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao-menu">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <!--navegação -->
-    <div class="collapse navbar-collapse" id="nav-target">
+    <div class="collapse navbar-collapse" id="navegacao-menu">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a href="" class="nav-link text-dark">Home</a>
+                <a href="index.html#home" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link text-dark">Sobre nós</a>
+                <a href="index.html#sobre" class="nav-link">Sobre nós</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link text-dark">Sessões</a>
+                <a href="index.html#sessoes" class="nav-link">Sessões</a>
             </li>
             <li class="nav-item">
-                <a href="" class="nav-link text-dark">Localização</a>
-            </li>
-            <li class="nav-item">
-                <a href="" class="nav-link text-dark">Contato</a>
+                <a href="index.html#localizacao" class="nav-link">Localização</a>
             </li>
         </ul> 
     </div>
-
     </nav>
 
+    <section id="home">
+    <!--Home-->
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h1 class="display-4">Venha conhecer o mais famoso Planetário do Brasil</h1>
+                        <p class="lead" >Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+             </div>
+             <div class="col-md-6">
+                 <img src="/img/home-astro.png" id="img-home">
+            </div>
+         </div>
+     </div>
+    </section>
+
+    <!--Sobre nós-->
+<section id="sobre"> 
+    <h3 class="title">Sobre nós</h3>
+    <p class="subtitle">- Planetário SP -</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/sobre.jpg" id="img-sobre">
+            </div>
+            <div class="col-md-6 d-flex">
+                <div class="align-self-center"> 
+                <p class="lead" id="parag">Lorem Ipsum is simply dummy text of the printing and typesetting
+                     industry. Lorem Ipsum is simply dummy text of the
+                    printing and typesetting industry.Lorem Ipsum is simply
+                    dummy text of the printing and typesetting industry.Lorem
+                    Ipsum is simply dummy text of the printing and
+                    typesetting industry.Lorem Ipsum is simply dummy text of
+                    the printing and typesetting industry.Lorem Ipsum is
+                    simply dummy text of the printing and typesetting
+                    industry.Lorem Ipsum is simply dummy text of the printing
+                    and typesetting industry.Lorem Ipsum is simply dummy
+                    text of the printing and typesetting industry.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+
+    <!--Conteúdo Sessões-->
+
+<section id="sessoes">
+    <h3 class="title">Sessões</h3>
+    <p class="subtitle">- Planetário SP -</p>
+    <br>
+    <div class="container">
+        <div class="row">
+            <!--Sessão card 1-->
+            <div class="col-sm-3 borda-container mr-4 aling= center">
+                <img src="img/img1.jpg" class="img-sessoes">
+                    <br><br><br>
+                    <div class="cont-sessoes">
+                        <p class="text-sessoes">DOM-DOM</p>
+                        <P class="data-sessoes">08|12</P>
+                        <p class="text-sessoes">MAR</p>
+                    </div>
+                <div class="cont-sessoes-tema">
+                    <p class="tema-sessoes">Sessão Da terra ao Universo</p>
+                </div>
+            </div>
+            <!--Sessão card 2-->
+            <div class="col-sm-3 borda-container mr-4 aling= center">
+                <img src="img/img2.jpg" class="img-sessoes">
+                    <br><br><br>
+                    <div class="cont-sessoes">
+                        <p class="text-sessoes">SEX</p>
+                        <P class="data-sessoes">11</P>
+                        <p class="text-sessoes">ABR</p>
+                    </div>
+                <div class="cont-sessoes-tema">
+                    <p class="tema-sessoes">Sessão Gratuita - Planetas do ...</p>
+                </div>
+            </div>
+            <!--Sessão card 3-->
+            <div class="col-sm-3 borda-container mr-4 aling= center">
+                <img src="img/img3.jpg" class="img-sessoes">
+                    <br><br><br>
+                    <div class="cont-sessoes">
+                        <p class="text-sessoes">SÁB</p>
+                        <P class="data-sessoes">12</P>
+                        <p class="text-sessoes">MAI</p>
+                    </div>
+                <div class="cont-sessoes-tema">
+                    <p class="tema-sessoes">Olhar o céu de São Paulo outro ...</p>
+                </div>
+            </div>
+
+            <div class="col-sm-2">
+                ANUNCIO
+                ANUNCIO
+                ANUNCIO
+                ANUNCIO
+                ANUNCIO
+                ANUNCIO
+                ANUNCIO
+                ANUNCIO
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+    <!--Localização-->
+
+    <section id="localizacao"> 
+        <h3 class="title">Localização</h3>
+        <p class="subtitle">- Planetário SP -</p><br>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col- aling = center" id="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5574314075234!2d-46.6631023850218!3d-23.584333384671478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59ee8a18bb69%3A0x5930ef03cce191d7!2sPlanet%C3%A1rio%20do%20Ibirapuera!5e0!3m2!1spt-BR!2sbr!4v1648581387095!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+<br>
+<br>
+    <!--Footer-->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="footer-text">Planetário SP</p>
+                    <a class="footer-text" href="">Quem somos</a><br>
+                    <a class="footer-text" href="">Termos de uso</a><br>
+                    <a class="footer-text" href="">Politica de cancelamento</a><br>
+                    <a class="footer-text" href="">Política extraordinária COVID-19</a><br>
+                    <a class="footer-text" href="">Vendas na Planetario SP</a><br>
+                    <a class="footer-text" href="">Trabalhe Conosco</a><br>
+                </div>
+
+                <div class="col-sm-4 coluna-meio aling = center">
+                    <p class="footer-text text-center">Redes Sociais</p>
+                    <a href="#">
+                    <img src="img/facebook footer.png">
+                    </a>
+                    <a href="#">
+                    <img src="img/instagramfooter.png">
+                    </a>
+                    <a href="#">
+                    <img src="img/tiktok.png">
+                    </a>
+
+
+                </div>
+
+                <div class="col-sm-4 imagem-direita">
+                    <p class="footer-text text-center">Formas de Pagamento</p>
+                    <img src="img/cartoes_2.png">
+                    <img src="img/bilhete .png">
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </footer>
+
+
     <!-- Optional JavaScript -->
+    <script src="javascript/main.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

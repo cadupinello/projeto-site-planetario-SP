@@ -1,1 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;600&family=Shippori+Antique+B1&family=Syne+Mono&display=swap');
+
+/*Footer*/
+#footer{
+    background-color: #0e0036;
+}
+
+.footer-text{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    margin-top: 40px;
+}
+a:hover.footer-text{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: #cecece;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.coluna-meio img{
+    height: 30px !important;  
+    margin-left: 60px;
+}
+
+.coluna-meio a{
+    text-decoration: none;
+}
+
+.imagem-direita img{
+    height: 35px !important;
+    margin-left: 40px !important;
+}
