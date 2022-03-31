@@ -6,11 +6,28 @@
     justify-content: space-between;
 }
 
+#header a {
+    text-decoration: none;
+}
+
 #header img{
     margin-left: 30px;
     height: 15px !important;    
 }
+
 /*Navbar */
+#menu {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 900000;
+}
+
+#menu a{
+    color: #0e0036 !important;
+    font-weight: bold;
+}
+
 #navegacao-menu a:hover{
     background-color: #9b9b9b80;
     color: black;
@@ -20,6 +37,7 @@
 #home{
     color: #fff;
     background-image: url(/img/espaco.jpg);
+    margin-top: 0px !important;
 }
 
 #home a {

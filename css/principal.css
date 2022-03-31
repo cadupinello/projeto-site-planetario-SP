@@ -100,24 +100,3 @@
     -webkit-box-shadow: 0px 0px 15px 0px #000000; 
     box-shadow: 0px 0px 15px 0px #000000;
 }
-
-/*Footer*/
-#footer{
-    background-color: #0e0036;
-}
-
-.footer-text{
-    font-size: 12px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    color: #fff;
-    margin-top: 40px;
-}
-a:hover.footer-text{
-    font-size: 12px;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-    color: #cecece;
-    margin-top: 40px;
-    text-decoration: none;
-}
