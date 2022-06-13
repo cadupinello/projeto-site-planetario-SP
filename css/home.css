@@ -36,8 +36,9 @@
 
 #home{
     color: #fff;
-    background-image: url(/img/espaco.jpg);
+    background-image: url(../img/espaco.jpg);
     margin-top: 0px !important;
+    height: 600px;
 }
 
 #home a {
@@ -48,6 +49,8 @@
 
 #home h1 {
     font-family: 'Alfa Slab One', cursive !important;
+    margin-top: 75px;
+
 }
 
 #home p{
